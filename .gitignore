@@ -1,0 +1,21 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Laravel env / secrets
+backend_laravel/chore_api/.env
+backend_laravel/chore_api/.env.*
+!backend_laravel/chore_api/.env.example
+
+# Laravel dependencies / generated files
+backend_laravel/chore_api/vendor/
+backend_laravel/chore_api/node_modules/
+
+# Flutter generated files
+frontend_flutter/chore_app/.dart_tool/
+frontend_flutter/chore_app/build/
+frontend_flutter/chore_app/.flutter-plugins
+frontend_flutter/chore_app/.flutter-plugins-dependencies
+
+# IDE files
+frontend_flutter/chore_app/.idea/
